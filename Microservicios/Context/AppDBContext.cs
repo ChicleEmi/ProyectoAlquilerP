@@ -14,7 +14,7 @@ namespace Microservicios.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=127.0.0.1,1433;Database=Cinema;usuario:sa;password=1234");
+            optionsBuilder.UseSqlServer();
         }
 
     }
